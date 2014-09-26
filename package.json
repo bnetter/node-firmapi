@@ -1,0 +1,28 @@
+{
+  "name": "node-firmapi",
+  "version": "0.0.1",
+  "description": "FirmAPI library to use in your NodeJS projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BenjaminN/node-firmapi.git"
+  },
+  "keywords": [
+    "firmapi",
+    "library",
+    "node",
+    "api"
+  ],
+  "author": "Benjamin Netter <benjamin.netter@gmail.com> (http://twitter.com/benjaminnetter)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BenjaminN/node-firmapi/issues"
+  },
+  "homepage": "https://github.com/BenjaminN/node-firmapi",
+  "dependencies": {
+    "request": "^2.44.0"
+  }
+}
