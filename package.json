@@ -1,6 +1,6 @@
 {
   "name": "node-firmapi",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "FirmAPI library to use in your NodeJS projects",
   "main": "index.js",
   "scripts": {
