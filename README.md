@@ -11,6 +11,22 @@ To install the most recent release from npm, run:
 
 ## Usage
 
+##### Get an API key
+
+You need an API key to make it work. Go [get your API key](https://firmapi.com/api/signup) from FirmAPI if you don't have one.
+
+##### Sandbox mode
+
+To try out the API, you should use the library in sandbox mode. You can do that by adding `true` as a second argument when initializing the library.
+
+```js
+var firmapi = new FirmAPI('your api key', true);
+```
+
+##### Search for companies
+
+You can search for a company by providing its name.
+
 ```js
 var FirmAPI = require('node-firmapi');
 
@@ -21,6 +37,8 @@ firmapi.search('criteo', function(err, data, page) {
 });
 ```
 
+Or you can search for all companies in a specific location.
+
 ```js
 var FirmAPI = require('node-firmapi');
 
@@ -30,6 +48,12 @@ firmapi.search({postal_code: 75009}, function(err, data, page) {
   // Check if err == null and return data
 });
 ```
+
+More informations on this [in the documentation](https://firmapi.com/api/docs/call/search).
+
+##### Get a company
+
+You can get more informations about a company when you have its SIREN.
 
 ```js
 var FirmAPI = require('node-firmapi');
